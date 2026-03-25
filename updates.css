@@ -1,4 +1,3 @@
-/* ТУТ ДИЗАЙН ТІЛЬКИ ДЛЯ NEWS.HTML */
 .img-container {
     width: 100%;
     height: 400px;
@@ -31,10 +30,9 @@
 }
 
 .news-btn {
-    background-color: #ffffff41;
-}
-
-.updates-btn {
     background-color: #ffffff1f;
 }
 
+.updates-btn {
+    background-color: #ffffff41;
+}
