@@ -58,12 +58,12 @@
     flex-direction: column;
     position: absolute;
     top: 730px;
-
+    transition: transform .3s;
 
 }
 
 .learn-more:hover{
-    size: 110%;
+    transform: scale(1.1);
 }
 
 .learn-more-base {
