@@ -16,10 +16,12 @@
     display: flex;
     border-bottom: 3px solid #ffffff33;
     margin-top: 30px;
-    padding-left: 400px;
+    align-items: center;
+    justify-content: flex-start;
+
 }
 
-.news-nav a {
+.news-box a {
     padding: 15px 45px;
     color: white;
     text-decoration: none;
@@ -29,6 +31,14 @@
     font-weight: 600;
 }
 
+.news-box {
+    width: 40%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .news-btn {
     background-color: #ffffff1f;
 }
@@ -36,3 +46,84 @@
 .updates-btn {
     background-color: #ffffff41;
 }
+
+.updates-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px 0px;
+}
+
+.updates-text {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px 20px;
+    background-color: #0b0b0b;
+    border-left: 2px solid #1f3242;
+    margin: 40px 0px;
+}
+
+.updates-text p {
+    font-size: 18px;
+    color: rgba(255, 255, 255, .7);
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    line-height: 26px;
+}
+
+.updates-text h4 {
+    color: rgba(255, 255, 255, .7);
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+    z-index: 2;
+    font-weight: lighter;
+}
+
+.updates-text h5 {
+    color: rgba(255, 255, 255, .7);
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 4px;
+    z-index: 2;
+    font-weight: lighter;
+}
+
+.updates-text h2 {
+    color: white;
+    font-size: 24px;
+    margin-left: 20px;
+    margin-top: 0px;
+    z-index: 2;
+}
+
+.updates-list {
+    list-style: disc;
+    margin: 4px 0 16px 40px;
+    padding: 0;
+}
+
+.updates-list li {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 26px;
+    margin-bottom: 4px;
+}
+
+.updates-link {
+    color: #6abfff;
+    text-decoration: none;
+}
+
