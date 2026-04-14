@@ -100,10 +100,61 @@
     font-weight: 600;
     color: black;
     letter-spacing: 2px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Stratum2, sans-serif;
     left: 90px;
     top: 20px;
 
+}
+
+
+
+
+
+.news{
+    justify-content: center;
+    align-items: center;
+    display: contents;
+}
+
+.news-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    gap: 600px;
+}
+
+.news-head-all {
+    width: auto;
+    height: auto;
+    position: relative;
+    right: 0;
+}
+
+.news-head-all a{
+    color: rgb(205, 205, 205);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+
+.news-head-all:hover{
+    background-color: rgb(82, 82, 82);;
+}
+
+
+.news-head-latest {
+    width: auto;
+    height: auto;
+    position: relative;
+    right: 0;
+    font-size: 20px;
+}
+.news-head-latest h4{
+    color: rgb(205, 205, 205);
+    font-family: Stratum2, sans-serif;
+    letter-spacing: 3px;
 }
 
 
@@ -142,21 +193,89 @@
 .news-text {
     width: 300px;
     height: auto;
-    row-gap: 100px;
+    
+    
 }
 
 .news-text p{
-    color: rgb(135, 135, 135);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    row-gap: 100px;
+    color: rgb(205, 205, 205);
+    font-family: Stratum2, sans-serif;
+    margin-bottom: 20px;
 }
 
 .news-text h3{
     color: rgb(205, 205, 205);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Stratum2, sans-serif;
+    margin-bottom: 5px;
 }
 
 .news-text h4{
     color: rgb(135, 135, 135);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Stratum2, sans-serif;
+    margin-bottom: 15px;
+}
+
+.news-text a{
+    font-size: 15px;
+    color: #ffffff6b;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Stratum2, sans-serif;
+}
+
+
+
+
+
+
+.container-maps{
+    margin-top: 200px;
+    position: relative;
+    box-shadow: 5px;
+}
+
+.maps-video video{
+    width: 100%;
+    height: auto;
+    pointer-events: none;
+}
+
+.maps-text{
+    width: 100%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    top: 450px;
+}
+
+.maps-text h3{
+    color: white;
+    font-size: 45px;
+    font-family: Stratum2, sans-serif;
+    letter-spacing: 2px;
+
+}
+
+.maps-text p{
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: Stratum2, sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+
+.maps-text a{
+    background-color:rgb(103, 169, 219);
+    padding: 8px 30px;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffffee;
+    font-family: Stratum2, sans-serif;
+    text-decoration: none;
 }
