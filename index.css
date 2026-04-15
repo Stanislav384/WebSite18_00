@@ -1,6 +1,7 @@
 /* ТУТ ДИЗАЙН ТІЛЬКИ ДЛЯ INDEX.HTML */
 .container-intro{
     position: relative;
+    box-shadow: 5px 5px 5px black;  
 }
 
 .upper-video video{
@@ -50,40 +51,231 @@
 }
 
 
-.learn-more {
+.learn-container{
     width: 100%;
+    height: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    bottom: 150px;
+}
+
+.learn-more {
+    width: 750px;
+    height: 135px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://cdn.fastly.steamstatic.com/apps/csgo/images/csgo_react/cs2/bumper.png);
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
     flex-direction: column;
+    transition: transform(0.5s);
     position: absolute;
-    top: 730px;
-    transition: transform .3s;
+    box-shadow: 5px 5px 5px black;  
+    filter: brightness(100%);
 
 }
 
 .learn-more:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
+    filter: brightness(120%);
 }
 
-.learn-more-base {
-    top: 400px;
-    width: 600px;
-    height: auto;
-    box-shadow: 5px 5px 5px black;
-}
 
 .learn-more-cs2 {
-    position: absolute;
-    right: 580px;
-    top: 55px;
     width: 300px;
+    height: 250px;
+    position: relative;
+    left: 130px;
+    bottom: 0;
+
 }
 
 .learn-more p{
-    position: absolute;
-    font-size: 21px;
-    top: 17px;
-    right: 680px;
+    position: relative;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    letter-spacing: 2px;
+    font-family: Stratum2, sans-serif;
+    left: 90px;
+    top: 20px;
+
+}
+
+
+
+
+
+.news{
+    justify-content: center;
+    align-items: center;
+    display: contents;
+}
+
+.news-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    gap: 600px;
+}
+
+.news-head-all {
+    width: auto;
+    height: auto;
+    position: relative;
+    right: 0;
+}
+
+.news-head-all a{
+    color: rgb(205, 205, 205);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+
+.news-head-all:hover{
+    background-color: rgb(82, 82, 82);;
+}
+
+
+.news-head-latest {
+    width: auto;
+    height: auto;
+    position: relative;
+    right: 0;
+    font-size: 20px;
+}
+.news-head-latest h4{
+    color: rgb(205, 205, 205);
+    font-family: Stratum2, sans-serif;
+    letter-spacing: 3px;
+}
+
+
+.news-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    gap: 40px;
+}
+
+
+.news-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 200px;
+    gap: 15px;
+}
+
+.news-image{
+    width: 200px;
+    height: 200px;
+
+}
+
+.news-image img{
+    object-fit: cover; 
+    /* image cut */
+    width: 100%;
+    height: 100%;
+}
+
+.news-text {
+    width: 300px;
+    height: auto;
+    
+    
+}
+
+.news-text p{
+    color: rgb(205, 205, 205);
+    font-family: Stratum2, sans-serif;
+    margin-bottom: 20px;
+}
+
+.news-text h3{
+    color: rgb(205, 205, 205);
+    font-family: Stratum2, sans-serif;
+    margin-bottom: 5px;
+}
+
+.news-text h4{
+    color: rgb(135, 135, 135);
+    font-family: Stratum2, sans-serif;
+    margin-bottom: 15px;
+}
+
+.news-text a{
+    font-size: 15px;
+    color: #ffffff6b;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Stratum2, sans-serif;
+}
+
+
+
+
+
+
+.container-maps{
+    margin-top: 200px;
+    position: relative;
+    box-shadow: 5px;
+}
+
+.maps-video video{
+    width: 100%;
+    height: auto;
+    pointer-events: none;
+}
+
+.maps-text{
+    width: 100%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    top: 450px;
+}
+
+.maps-text h3{
+    color: white;
+    font-size: 45px;
+    font-family: Stratum2, sans-serif;
+    letter-spacing: 2px;
+
+}
+
+.maps-text p{
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: Stratum2, sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+
+.maps-text a{
+    background-color:rgb(103, 169, 219);
+    padding: 8px 30px;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffffee;
+    font-family: Stratum2, sans-serif;
+    text-decoration: none;
 }
