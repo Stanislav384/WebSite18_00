@@ -389,6 +389,33 @@
 
 
 
+.guns-container{
+    display: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.guns-text{
+    text-align: center;
+    width: auto;
+    margin: 100px;
+}
+
+.guns-photo{
+    width: 100%;
+}
+.guns-text-button a{
+    background-color:rgb(103, 169, 219);
+    padding: 8px 30px;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffffee;
+    font-family: Stratum2, sans-serif;
+    text-decoration: none;
+}
+
 
 
 
@@ -435,3 +462,7 @@ footer {
     justify-content: space-between;
     color: rgba(255, 255, 255, 0.363);
 }
+
+
+
+
